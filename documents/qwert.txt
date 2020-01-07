@@ -1,0 +1,39 @@
+CREATE TABLE employee(
+id INT NOT NULL PRIMARY KEY,
+gender VARCHAR(25),
+personid int,
+FOREIGN KEY (personid) REFERENCES Persons(id),
+jobtitleid int,
+FOREIGN KEY (jobtitleid) REFERENCES workjob(id),
+worktype VARCHAR(25),
+email VARCHAR(30),
+worklocationid int,   
+FOREIGN KEY (worklocationid) REFERENCES worklocation(id),
+day int,
+month int,
+year int,
+document varchar(35),
+documentstatus tinyInt,
+image varchar(35),
+lastseen datetime,
+createdtime datetime,
+updatetime timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+isdeleted tinyint
+    
+
+ 
+);
+
+
+
+
+
+CREATE TABLE letters(
+id int NOT NULL PRIMARY KEY,
+employeeid int,
+FOREIGN KEY (employeeid) REFERENCES employee(id),
+adminid int,
+FOREIGN KEY (adminid) REFERENCES admin(id),
+
+
+);

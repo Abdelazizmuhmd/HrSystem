@@ -1,0 +1,209 @@
+ 
+    body {
+       background-color: #EDEEF3;
+       margin:0;
+         } 
+    
+    #logo{
+        background-color: #FEFFFF;
+         }
+    
+    #letterSetting{
+        position: relative;
+        background-color:#F9F9FB;
+        width:50%;
+        height:700px;
+        top:15px;  
+        }
+    
+    #insideLetterSetting{
+        position: absolute;
+        top:20px;
+        left:70px;
+        right:70px;
+        bottom:90px;
+        background-color: #F9F9FB;
+        }
+    
+    #insideLetterSetting H5{
+        color: #a7a6b6;
+        font-family:"Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.1px;
+
+        }
+    
+    span.firstDetail {
+          display: inline-block;
+          width: 42%;
+          padding: 5px;
+          border: 1px solid LightGrey  ;    
+          background-color: white; 
+          margin-left:10px;
+          color:#383da2;
+          font-family:"Open Sans", "Helvetica Neue", sans-serif;
+          font-weight: bold;
+          letter-spacing: -0.1px;
+          
+       }
+    
+    span.secondDetail{
+          display: inline-block;
+          width: 42%;
+          padding: 5px;
+          border: 1px solid LightGrey  ;    
+          background-color: white; 
+          margin-left:10px;
+          color:#383da2;
+          font-family:"Open Sans", "Helvetica Neue", sans-serif;
+          font-weight: bold;
+          letter-spacing: -0.1px;
+      }
+    
+    span.inside{
+        display: block;
+      }
+    
+    #employeeSalaryId,#employeeNameId,#priorityId,#letterTypeId{
+        color:#414690;
+        font-family: "Arial";
+        letter-spacing: -0.1px;
+        font-weight: 300;   
+        font-size: 14px;
+     }
+    
+    #letterSettings{
+          color:#383da2;
+          font-family:"Open Sans", "Helvetica Neue", sans-serif;
+          font-weight: bold;
+          letter-spacing: -0.1px;
+          display: inline-block;
+          margin-left: 10px;
+          font-size: 15px;
+          width:100%;
+          height: 60px;
+ 
+    }
+    
+    #addressId{
+          margin-top:10px;
+          width: 88%;
+          padding: 5px;
+          border: 1px solid LightGrey  ;    
+          background-color: white; 
+          height:30px;
+     }
+    
+    .cityStyle{
+          display: inline-block;
+          width:32%;
+          margin-right: 10px;
+     }
+    #saveId{
+        background-color: white;
+        border: none;
+        margin-top: 35px;
+        color:#00d777;
+        font-family: "Arial";
+      font-size: 15px;
+        font-weight: bold;
+             margin-left:-6px; 
+
+
+
+    }
+    .beside{
+        display: inline-block;
+        background-color:white;
+        width:33%;
+        height:670px;
+        vertical-align: top;
+         margin-right: 150px;
+    
+
+    }
+    #upDetails{
+ position: absolute;
+  top:20px;
+  right: 0;
+  width: 160px;
+  height: 100px;
+
+
+    }
+    #upDetails p,#title p{
+          color:#414690;
+  font-family: "Arial";
+ text-align: center;
+        
+font-size: 14px;
+        font-weight: 560;
+        margin-bottom: -10px;
+    }
+    #title{
+ 
+  top:250px;
+  margin-left:190px;
+  width: 40%;
+  height: 100px;
+
+        
+    }
+    #title h4{
+        margin-top:70px;
+        color:#414690;
+        font-size: 18px;
+        font-family: "Arial";
+        font-weight: 560;
+        margin-bottom: -10px;
+    }
+    #dear p{
+                 color:#414690;
+  font-family: "Arial";
+        margin-left: 20px;
+font-size: 14px;
+        font-weight: 560;
+    }
+    #downDetails{
+        position:absolute;
+        top:550px;
+        width: 30%;
+        height: 110px;
+
+    }
+    #downDetails p{
+                       color:#414690;
+  font-family: "Arial";
+        margin-left: 20px;
+        margin-bottom: -10px;
+font-size: 14px;
+        font-weight: 560;
+    }
+    #dear{
+        position: absolute;
+        top:170px;
+    }
+    .textArea{
+        border:none;   resize: none; outline:0px !important; -webkit-appearance:none; box-shadow: none!important;
+        width: 90%;
+        margin-left: 26px;
+        margin-top: -24px;
+        height: 300px;
+        color:#414690;
+        font-family: "Arial";
+        font-size: 14px;
+        font-weight: 600;
+        
+    }
+    .button {
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    background-color: white; 
+  color: dodgerblue; 
+  border: 2px solid dodgerblue;
+        
+}

@@ -1,0 +1,145 @@
+body {
+       background-color: #EDEEF3;
+       margin:0;
+      } 
+#logo{
+       background-color: #FEFFFF;
+       }
+.letterContainer{
+        position: relative;
+        background-color:#F9F9FB;
+        width:49%;
+        height:700px;
+        top:15px;  
+        display: inline-block; 
+        background-color: #F9F9FB;
+
+
+        }
+.while{
+    margin-top:90px;
+}
+.letterSetting{
+        position: absolute;
+            top: 40px;
+    left: 80px;
+    right: 70px;
+        background-color: #F9F9FB;
+        display: block;
+
+
+        }
+.letterSetting h4{
+       color: #a7a6b6;
+       font-family: "Open Sans", "Helvetica Neue", sans-serif;
+       letter-spacing: -0.1px;
+       font-weight: 400;
+    
+        }
+.block{
+       display: inline-block;
+        }
+.letterPage{
+       margin-top: 30px; 
+       position: absolute; 
+       background-color: white;
+       width: 33%;
+       height: 670px;
+       vertical-align: top;
+       margin-right: 150px;
+       margin-left: 160px;
+        }
+label{
+       color: #383da2;
+       font-family: "Open Sans", "Helvetica Neue", sans-serif;
+       font-weight: bold;
+
+              
+        }
+select{
+       width: 55%;
+       height: 33px;
+       margin-top: 10px;
+
+        }
+.button{
+       background-color: transparent;
+       border: none;
+       margin-top: 35px;
+       color: #00d777;
+       font-family: "Arial";
+       font-size: 15px;
+       font-weight: bold;
+       margin-left: -6px;
+    margin-right: 20px;
+        }
+#upDetails{
+       position: absolute;
+       top: 20px;
+       right: 0;
+       width: 160px;
+       height: 100px;
+        }
+#upDetails p{
+        color: #414690;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 14px;
+    font-weight: 560;
+    margin-bottom: -10px;
+        }
+#title {
+    top: 250px;
+    margin-left: 185px;
+    width: 40%;
+    height: 100px;
+    
+    
+}
+#title h4 {
+    margin-top: 70px;
+    color: #414690;
+    font-size: 18px;
+    font-family: "Arial";
+    font-weight: 560;
+    margin-bottom: -10px;
+    
+  
+}
+
+        
+#dear {
+    position: absolute;
+    top: 170px;
+}
+#dear p {
+    color: #414690;
+    font-family: "Arial";
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 560;
+}
+.MessageText{
+    color: #414690;
+    font-family: "Arial";
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 560;
+        height: 300px;
+    width: 90%;
+        }
+        
+#downDetails {
+    position: absolute;
+    top: 550px;
+    width: 30%;
+    height: 110px;
+}
+        #downDetails p {
+    color: #414690;
+    font-family: "Arial";
+    margin-left: 20px;
+    margin-bottom: -10px;
+    font-size: 14px;
+    font-weight: 560;
+}

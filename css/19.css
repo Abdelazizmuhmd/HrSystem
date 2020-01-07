@@ -1,0 +1,83 @@
+  body{
+        background-image: url(../images/d.png);   
+    }
+
+    .p{
+        
+    margin: 20px 0 30px;
+
+    }
+ 
+  
+    .a{
+    position: absolute;
+        top:290px;
+        left:0;
+        right:0;
+        bottom: 0;
+    width: 36%;
+    margin: 0 auto;
+
+    }
+    .b{
+    padding: 50px 40px;
+    text-align: center;
+    margin: 0px;
+    color: #000;
+    margin: 0 auto;
+        
+    }
+    .b input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    letter-spacing: 1.2px;
+    border: none;
+    background: #03A9F4;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+}
+
+    .b input[type="text"],.b input[type="password"]{
+    padding: 13px 10px;
+    width: 92.5%;
+    font-size: 16px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.6px;
+    color: #fff;
+    }
+    ::placeholder {
+    color:white;
+    }
+    h1{
+     font-size: 50px;
+    color: #fff;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 4px #000;
+    text-transform: uppercase;
+    font-weight: 600;
+        width: 200px;
+    }
+    select{
+        padding: 13px 10px;
+    width: 95.5%;
+    font-size: 16px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.6px;
+    color: white;
+    }
+    select option{
+        color:black;
+    }
